@@ -1,0 +1,24 @@
+// LogicalOperation.cpp: Логические операции рвнения двух строк
+
+#include "stdafx.h"
+#include <iostream>
+#include <string>
+#include <vector>
+#include <map>
+
+using namespace std;
+
+int main() {
+	map<string, int> a;
+	a["one"] = 1;
+	map<string, int> b;
+	if (a < b) {
+		cout << "less";
+	}
+	else {
+		cout << "not less";
+	}
+
+	getchar();
+	return 0;
+}
